@@ -15,5 +15,10 @@ namespace PST
         public string Language { get; set; }
         public string Country { get; set; }
         public string Category { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }
